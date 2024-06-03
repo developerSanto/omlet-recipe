@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html,body{
-    width: 1440px;
-    height: 100%; 
+body{
+    /* width: 1440px;
+    height: 100%;  */
     background-color:#F3E5D8;
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -31,6 +30,7 @@ html,body{
 p,li{
     font-size: 16px;
     color:grey;
+    line-height: 29px;
 }
 #omlet{
     width: 700px;
@@ -90,6 +90,132 @@ p,li{
     /* margin-left: 45px; */
     padding:20px;
     justify-content:inherit;
+} 
+.nutrition-items{
+    margin-left: 20px;
 }
+.nutrition-amount{
+    margin-left: 300px;
+}
+
+@media screen and (max-width:376px) {
+    html,body{
+        /* width: 376px;
+        height: 1000px;  */
+        background-color:none;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    
+    .main{
+        width: 376px;
+        height: 500px;
+        background-color:none;
+        margin-top:0px;
+        margin-left:0px;
+        border-radius:0px;
+        
+    }
+    .main-heading{
+        margin-left: 15px;
+    }
+    .omlete-para{
+        margin-left: 15px;
+        margin-top:10px;
+        line-height: 20px;
+    }
+    p,li{
+        font-size: 12px;
+        line-height: 20px;
+        color:grey;
+    }
+
+    #omlet{
+        width:402px;
+        height: 200px;
+        border-radius:0px;
+        padding:0px;
+        margin-left: -30px;
+        margin-top: -30px;
+        
+    }
+
+    .preparation-section{
+        width: 375px;
+        height: 120px;
+        background-color: #F3E5D8;
+        margin:30px 30px 20px 20px;
+        border-radius: 10px;
+    } 
+    
+    .preparation-heading{
+        margin-left: 10px;
+        padding:5px;
+        font-size:18px;
+        color:rgba(123, 38, 123, 0.874);
+    }
+    
+    .preparation-list{
+    
+        margin: 10px 30px;
+    }
+
+    .ingredients-section{
+        background-color:white;
+    }
+    
+    .ingredients-heading{
+        margin-left: 15px;
+        color:rgb(109, 39, 39);
+    }
+    
+    .ingredients-list{
+        margin-left: 20px;
+        padding:20px;
+        line-height: 20px;
+    }
+
+    .instruction-section{
+        background-color: white;
+    }
+    
+    .instruction-heading{
+        margin-left: 15px;
+        color:rgb(109, 39, 39);
+    }
+    
+    .instruction-list{
+        margin-left: 10px;
+        padding:20px;
+        line-height: 20px;
+    }
+    .nutrition-section{
+        background-color: white;
+    }
+    .nutrition-heading{
+        margin-left: 15px;
+        color:rgb(109, 39, 39);
+    }
+    
+    .nutrition-para{
+        margin-left: 15px;
+    }
+    .nutrition-value{
+        /* margin-left: 45px; */
+        padding:20px;
+        justify-content:inherit;
+    } 
+
+    .nutrition-items{
+        margin-left: 10px;
+    }
+    .nutrition-amount{
+        margin-left: 100px;
+    }
+    
+} 
+
 
     
