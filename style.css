@@ -1,3 +1,95 @@
-h1{
-    color:blue;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html,body{
+    width: 1440px;
+    height: 100%; 
+    background-color:#F3E5D8;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.main{
+    width: 800px;
+    height: 1440px;
+    background-color:white;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+.main-heading{
+    margin-left: 45px;
+}
+.omlete-para{
+    margin-left: 45px;
+}
+p,li{
+    font-size: 16px;
+    color:grey;
+}
+#omlet{
+    width: 700px;
+    height: 350px;
+    margin:45px 45px 20px 45px;
+    border-radius: 10px;
+}
+
+.preparation-section{
+    width: 700px;
+    height: 160px;
+    background-color: #F3E5D8;
+    margin:45px 45px 20px 45px;
+    border-radius: 10px;
+} 
+
+.preparation-heading{
+    margin-left: 15px;
+    padding:20px;
+    color:rgba(123, 38, 123, 0.874);
+}
+
+.preparation-list{
+
+    margin: 10px 30px;
+}
+
+.ingredients-heading{
+    margin-left: 45px;
+    color:rgb(109, 39, 39);
+}
+
+.ingredients-list{
+    margin-left: 40px;
+    padding:20px;
+}
+
+.instruction-heading{
+    margin-left: 45px;
+    color:rgb(109, 39, 39);
+}
+
+.instruction-list{
+    margin-left: 40px;
+    padding:20px;
+}
+
+.nutrition-heading{
+    margin-left: 45px;
+    color:rgb(109, 39, 39);
+}
+
+.nutrition-para{
+    margin-left: 45px;
+}
+.nutrition-value{
+    /* margin-left: 45px; */
+    padding:20px;
+    justify-content:inherit;
+}
+
+    
