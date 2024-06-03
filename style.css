@@ -32,6 +32,12 @@ p,li{
     color:grey;
     line-height: 29px;
 }
+
+span{
+    font-weight: bold;
+    color: rgb(112, 102, 102);
+}
+
 #omlet{
     width: 700px;
     height: 350px;
@@ -41,7 +47,7 @@ p,li{
 
 .preparation-section{
     width: 700px;
-    height: 160px;
+    height: 180px;
     background-color: #F3E5D8;
     margin:45px 45px 20px 45px;
     border-radius: 10px;
@@ -55,7 +61,7 @@ p,li{
 
 .preparation-list{
 
-    margin: 10px 30px;
+    margin: 0px 30px 10px 30px;
 }
 
 .ingredients-heading{
@@ -78,6 +84,10 @@ p,li{
     padding:20px;
 }
 
+.nutrition-section{
+    background-color: white;
+}
+
 .nutrition-heading{
     margin-left: 45px;
     color:rgb(109, 39, 39);
@@ -98,6 +108,9 @@ p,li{
     margin-left: 300px;
 }
 
+.amount{
+    color:brown;
+}
 @media screen and (max-width:376px) {
     html,body{
         /* width: 376px;
